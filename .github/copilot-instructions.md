@@ -1,0 +1,24 @@
+# PowerShell Compact Syntax Context
+
+- **Variables:** `$varName`
+- **Comments:** `# Line`, `<# Block #>`
+- **Cmdlets:** `Verb-Noun -Param Value` (e.g., `Get-Service -Name 'wuauserv'`)
+- **Pipeline:** `|` (e.g., `Get-Process | Sort-Object CPU -Descending`)
+- **Comparison:** `-eq` (equal), `-ne` (not equal), `-gt` (greater than), `-ge` (greater or equal), `-lt` (less than), `-le` (less or equal)
+    - Case-Sensitive: `-ceq`, `-cne`, `-cgt`, `-cge`, `-clt`, `-cle`
+    - Wildcard: `-like`, `-notlike` (use `*` and `?`)
+    - Regex: `-match`, `-notmatch`
+    - Containment: `-contains`, `-notcontains` (collection on left), `-in`, `-notin` (scalar on left)
+- **If/ElseIf/Else:** `if ($condition) { #... } elseif ($condition2) { # code } else { #... }`
+- **Switch:** `switch ($value) { Val1 { } {$_.Prop -match 'Pattern'} default {} }`
+- **Loops:** `foreach ($i in $collection) {}`, `for (...) {}`, `while (...) {}`
+- **Loop Control:**
+    - `break`: Exit the current loop (foreach, for, while, do, switch).
+    - `break :OuterLoop`: Exit a specific labeled outer loop (e.g., `:OuterLoop while($true){ foreach(...){ break :OuterLoop } }`).
+    - `continue`: Skip to the next iteration of the current loop.
+- **Arrays:** `@(1, 2, 3)`, Access: `$arr[0]`
+- **Hashtables:** `@{Key = 'Value'; Key2 = $val}`, Access: `$ht.Key` or `$ht['Key']`
+- **Functions:** `function Verb-Noun { param([string]$P) process {} }`
+- **Error Handling:** `try { #... } catch { #... } finally { #... }`
+- **Strings:** `"Expand $var"`, `'Literal $var'`, `"Subexpression $($var.Prop)"`
+- **Scope:** `$script:var`, `$global:var`
