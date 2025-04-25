@@ -2,10 +2,11 @@
 
 ### Prerequisites
 
-- GitHub Copilot
-- GitHub Copilot Chat
-- PowerShell 7.x (recommended)
-- VS Code with PowerShell extension
+- Visual Studio Code
+   - [GitHub Copilot extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+   - [GitHub Copilot Chat extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+   - [PowerShell extension](https://marketplace.visualstudio.com/items/?itemName=ms-vscode.PowerShell)
+- PowerShell 5, but 7.x recommended
 
 ## Prompting Best Practices
 
