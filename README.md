@@ -94,6 +94,7 @@ Each exercise focuses on a different aspect of Copilot functionality to enhance 
    - Explore options to transfer the code to your file
    - Review and modify the code as needed
    - Add comments explaining what the code does
+4. You can also experiment with using inline chat for Code generation (Default: `Cmd+I` / `Ctrl+I`), often used for quick explanations or edits on selected code.
 
 ### Example Prompts
 - "Generate PowerShell code to get the current date and time in yyyy-MM-dd format"
@@ -115,7 +116,8 @@ Each exercise focuses on a different aspect of Copilot functionality to enhance 
    - Read and understand Copilot's explanation
    - Add your own comments to the code based on what you learned
    - Try selecting smaller parts of complex snippets for more targeted explanations
-3. Try and explore the other options available with `/help`
+3. Try documenting the code with Copilot 
+4. Try and explore the other options available with `/help`
 
 ## Exercise 4: Fixing PowerShell Code with Copilot
 

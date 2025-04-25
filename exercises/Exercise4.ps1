@@ -1,4 +1,4 @@
-# Exercise 5: PowerShell Code with Errors to Fix
+# Exercise 4: PowerShell Code with Errors to Fix
 
 #=======================================================
 # Example 1: Syntax Error

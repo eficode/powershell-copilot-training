@@ -1,4 +1,4 @@
-# Exercise 4: Understanding PowerShell Code with Copilot Chat
+# Exercise 3: Understanding PowerShell Code with Copilot Chat
 # GitHub Copilot Feature: Code Explanation with /explain
 
 # INSTRUCTIONS:
