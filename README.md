@@ -1,4 +1,10 @@
-# PowerShell Prompt Engineering with GitHub Copilot
+# Workshop 2:
+
+Refer to the details of the project implementation in this [backlog](./project/backlog.md) file.
+
+# Workshop 1:
+
+# Module 1: PowerShell Prompt Engineering with GitHub Copilot
 
 ### Prerequisites
 
@@ -57,7 +63,7 @@ Create a PowerShell module with functions to manage system services with proper 
 - **Clarity**: Use proper PowerShell naming conventions and style
 - **Specificity**: Define parameter types, validation, and error handling requirements
 
-# GitHub Copilot PowerShell Exercises
+# Module 2: GitHub Copilot PowerShell Exercises
 
 Each exercise focuses on a different aspect of Copilot functionality to enhance your PowerShell development workflow.
 
