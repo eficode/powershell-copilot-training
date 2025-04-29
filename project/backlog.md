@@ -17,11 +17,11 @@ Develop a PowerShell module named SystemInventory that gathers basic system info
 
 2. **Data Collection**
    - **All Platforms**
-     - Operating system details
-     - Running processes
-     - Services/daemons
-     - Installed packages/applications 
-     - Directory statistics for specified paths
+     - Operating system details (Cmdlets like Get-ComputerInfo or platform-specific commands/files might be needed).
+     - Running processes (name, ID, CPU/memory usage)
+     - Services/daemons (name, status, startup type)
+     - Installed packages/applications (name, version, install date if available)
+     - Directory statistics (size, file count, last modified date) for specified paths
    
    - **Windows-Specific**
      - Installed Windows Features
@@ -48,6 +48,11 @@ Develop a PowerShell module named SystemInventory that gathers basic system info
 3. **Performance**
    - Efficient execution on systems with limited resources
    - Progress indicators for long-running operations
+
+4. **Testing - Optional**
+   - Implement Pester tests for all functions
+   - Include unit tests for class methods and properties
+   - Mock external dependencies for consistent test results
 
 ### Documentation Requirements
 1. **Code Documentation**
@@ -76,3 +81,15 @@ Decompose the main backlog item into smaller, logical tasks
 Utilize Copilot Chat for structured task generation. Agent mode, if available, might offer a more automated planning approach
 
 Use Copilot to identify the further implementation phases.
+
+### Optional Phase: Test-Driven Development with Pester and GitHub Copilot
+
+1. **Initial Test Setup**
+   - Use Copilot to generate a basic Pester test structure
+   - Set up test folder organization mirroring the module structure
+   - Create test fixtures and mock data with Copilot's assistance
+
+2. **Unit Test Development**
+   - Leverage Copilot to generate test cases for each function
+   - Use Copilot to suggest different test scenarios and edge cases
+   - Implement mocks for external commands and platform-specific functionality
